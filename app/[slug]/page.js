@@ -5,26 +5,30 @@ import matter from "gray-matter"
 import fs from "fs"
 
 
-async function getData(slug) {
+async function getData() {
   // List of files in blgos folder
-  const filesInPosts = fs.readdirSync('./content/posts')
+  try {
+    const filesInPosts = fs.readdirSync('./content/posts')
 
-  const posts = filesInPosts.map(filename => {
-    const file = fs.readFileSync(`./content/posts/${filename}`, 'utf8')
-    const matterData = matter(file)
+    const posts = filesInPosts.map(filename => {
+      const file = fs.readFileSync(`./content/posts/${filename}`, 'utf8')
+      const matterData = matter(file)
 
-    return {
-      ...matterData.data, // matterData.data contains front matter
-      slug: filename.slice(0, filename.indexOf('.'))
-    }
-  })
+      return {
+        ...matterData.data, // matterData.data contains front matter
+        slug: filename.slice(0, filename.indexOf('.'))
+      }
+    })
 
-  return posts
+    return posts
+  } catch (error) {
+    
+  }
 }
 
 export default async function Home({params}) {
     
-  const allPosts = await getData(params.slug)
+  const allPosts = await getData()
   const posts = allPosts.filter((post) => post.category === params.slug)
 
 //   const topStory = posts.filter((post) => post.topstory === true)

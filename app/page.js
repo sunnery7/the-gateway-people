@@ -7,19 +7,23 @@ import fs from "fs"
 
 async function getData() {
   // List of files in blgos folder
-  const filesInPosts = fs.readdirSync('./content/posts')
+  try {
+    const filesInPosts = fs.readdirSync('./content/posts')
 
-  const posts = filesInPosts.slice(0, 15).map(filename => {
-    const file = fs.readFileSync(`./content/posts/${filename}`, 'utf8')
-    const matterData = matter(file)
+    const posts = filesInPosts.slice(0, 15).map(filename => {
+      const file = fs.readFileSync(`./content/posts/${filename}`, 'utf8')
+      const matterData = matter(file)
 
-    return {
-      ...matterData.data, // matterData.data contains front matter
-      slug: filename.slice(0, filename.indexOf('.'))
-    }
-  })
+      return {
+        ...matterData.data, // matterData.data contains front matter
+        slug: filename.slice(0, filename.indexOf('.'))
+      }
+    })
 
   return posts
+  } catch (error) {
+    
+  }
 }
 
 export default async function Home() {
