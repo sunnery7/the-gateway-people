@@ -32,7 +32,7 @@ export default async function Home() {
 
   const topStory = posts?.filter((post) => post?.topstory === true)
 
-  console.log(posts, topStory);
+  // console.log(posts, topStory);
 
 
   return (

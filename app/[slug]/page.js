@@ -4,13 +4,30 @@ import Header from "../../components/header"
 import matter from "gray-matter"
 import fs from "fs"
 
+const categories = [
+  {name: 'news', title: 'News'},
+  {name: 'politics', title: 'Politics'},
+  {name: 'business', title: 'Business'},
+  {name: 'culture', title: 'Culture'},
+  // {name: 'news', title: 'News'},
+  // {name: 'news', title: 'News'}
+]
 
-async function getData() {
-  // List of files in blgos folder
+
+export async function generateStaticParams() {
+  const allCats = categories.map(category => {
+    return {
+      slug: category.name
+    }
+  })
+  return allCats
+}
+
+async function getData(slug) {
   try {
     const filesInPosts = fs.readdirSync('./content/posts')
 
-    const posts = filesInPosts.map(filename => {
+    const allPost = filesInPosts.map(filename => {
       const file = fs.readFileSync(`./content/posts/${filename}`, 'utf8')
       const matterData = matter(file)
 
@@ -20,6 +37,8 @@ async function getData() {
       }
     })
 
+    const posts = allPost?.filter((post) => post.category === slug)
+
     return posts
   } catch (error) {
     
@@ -27,14 +46,9 @@ async function getData() {
 }
 
 export default async function Home({params}) {
+  const {slug} = params
     
-  const allPosts = await getData()
-  const posts = allPosts?.filter((post) => post.category === params.slug)
-
-//   const topStory = posts.filter((post) => post.topstory === true)
-
-  console.log(allPosts, posts);
-
+  const posts = await getData(slug)
 
   return (
     <section className="w-full" data-id="1">

@@ -3,6 +3,24 @@ import matter from "gray-matter"
 import fs from "fs"
 
 
+// Return a list of `params` to populate the [slug] dynamic segment
+export async function generateStaticParams() {
+    try {
+        const filesInPosts = fs.readdirSync('./content/posts')
+    
+        const posts = filesInPosts.map(filename => {
+          return {
+            slug: filename.slice(0, filename.indexOf('.'))
+          }
+        })
+    
+      return posts
+      } catch (error) {
+        
+      }
+}
+
+
 async function getData(slug) {
     try {
         const fileContent = matter(fs.readFileSync(`./content/posts/${slug}.md`, 'utf8'))
@@ -14,15 +32,11 @@ async function getData(slug) {
     }
 }
 
-
 export default async function Post({params}) {
-    
-  const post = await getData(params.slug)
+    const {slug} = params
+  const post = await getData(slug)
 
 //   const otherStory = posts.filter((post) => post.topstory === true)
-
-//   console.log(post);
-
 
   return (
     <section className="w-full" data-id="1">
