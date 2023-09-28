@@ -30,7 +30,7 @@ export default async function Home() {
     
   const posts = await getData()
 
-  const topStory = posts.filter((post) => post.topstory === true)
+  const topStory = posts?.filter((post) => post.topstory === true)
 
   console.log(posts, topStory);
 
@@ -69,7 +69,7 @@ export default async function Home() {
         <section className="mb-8" data-id="23">
           {/* <h2 className="text-2xl font-bold mb-4" data-id="24">Politics</h2> */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6" data-id="25">
-            {posts.map((post, idx) => (
+            {posts?.map((post, idx) => (
               <Link key={idx} href={`/blog/${post?.slug}`}>
                 <div data-id="26">
                   <img
