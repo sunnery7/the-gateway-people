@@ -1,5 +1,4 @@
 import Link from "next/link"
-// import { attributes, react as HomeContent } from '../content/home.md'
 import Header from "../../components/header"
 import matter from "gray-matter"
 import fs from "fs"
