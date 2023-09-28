@@ -1,15 +1,15 @@
 import Link from "next/link"
 // import { attributes, react as HomeContent } from '../content/home.md'
-import Header from "../components/header"
+import Header from "../../components/header"
 import matter from "gray-matter"
 import fs from "fs"
 
 
-async function getData() {
+async function getData(slug) {
   // List of files in blgos folder
   const filesInPosts = fs.readdirSync('./content/posts')
 
-  const posts = filesInPosts.slice(0, 15).map(filename => {
+  const posts = filesInPosts.map(filename => {
     const file = fs.readFileSync(`./content/posts/${filename}`, 'utf8')
     const matterData = matter(file)
 
@@ -22,13 +22,14 @@ async function getData() {
   return posts
 }
 
-export default async function Home() {
+export default async function Home({params}) {
     
-  const posts = await getData()
+  const allPosts = await getData(params.slug)
+  const posts = allPosts.filter((post) => post.category === params.slug)
 
-  const topStory = posts.filter((post) => post.topstory === true)
+//   const topStory = posts.filter((post) => post.topstory === true)
 
-  console.log(posts, topStory);
+  console.log(allPosts, posts);
 
 
   return (
@@ -37,29 +38,7 @@ export default async function Home() {
       
       <main className="container mx-auto px-4 md:px-6 py-8" data-id="13">
         <section className="mb-8" data-id="14">
-          <h2 className="text-2xl font-bold mb-4" data-id="15">
-            Top Story
-          </h2>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6" data-id="16">
-              <div data-id="17">
-                <img
-                  alt={topStory?.title}
-                  className="w-full h-64 object-cover object-center rounded-lg"
-                  height="400"
-                  src={`/uploads/${topStory?.image}`}
-                  width="600"
-                />
-              </div>
-              <div className="flex flex-col justify-center" data-id="19">
-                <h3 className="text-xl font-bold mb-2" data-id="20">{topStory?.title}</h3>
-                <p className="text-zinc-500 dark:text-zinc-400" data-id="21">{topStory?.headline}</p>
-                <Link href={`/blog/${topStory?.slug}`} className="text-blue-500 hover:text-blue-700 mt-4">
-                  Read More
-                </Link>
-              </div>
-            </div>
-          
+          <h2 className="text-2xl font-bold mb-4 capitalize" data-id="15">{params.slug}</h2>
         </section>
 
         <section className="mb-8" data-id="23">

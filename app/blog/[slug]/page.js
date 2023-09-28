@@ -1,0 +1,93 @@
+import Header from "../../../components/header"
+import matter from "gray-matter"
+import fs from "fs"
+
+
+async function getData(slug) {
+    try {
+        const fileContent = matter(fs.readFileSync(`./content/posts/${slug}.md`, 'utf8'))
+        let frontmatter = fileContent.data
+        const markdown = fileContent.content
+        return {frontmatter, markdown }
+    } catch (error) {
+        // console.log(error);
+    }
+}
+
+
+export default async function Post({params}) {
+    
+  const post = await getData(params.slug)
+
+//   const otherStory = posts.filter((post) => post.topstory === true)
+
+//   console.log(post);
+
+
+  return (
+    <section className="w-full" data-id="1">
+      <Header />
+      
+      <main className="container mx-auto px-4 md:px-6 py-8" data-id="13">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 my-12">
+          <div className="col-span-2">
+            <h2 className="text-3xl font-bold tracking-tighter mb-4">{post?.title}</h2>
+            <img
+              alt="Top Story"
+              className="w-full h-64 object-cover rounded-lg mb-4"
+              height="500"
+              src={`/uploads/${post?.image}`}
+              width="1000"
+            />
+            {/* <h3 className="text-2xl font-bold tracking-tighter mb-2">Headline for the top story</h3> */}
+            <p className="text-zinc-500 md:text-lg/relaxed lg:text-base/relaxed xl:text-lg/relaxed dark:text-zinc-400 mb-4">{post?.body}</p>
+          </div>
+
+          {/* <div>
+            <h2 className="text-2xl font-bold tracking-tighter mb-4">Other News</h2>
+            <div className="space-y-6">
+              <div>
+                <img
+                  alt="News"
+                  className="w-full h-32 object-cover rounded-lg mb-2"
+                  height="200"
+                  src="/placeholder.svg"
+                  width="200"
+                />
+                <h3 className="text-xl font-bold tracking-tighter mb-2">Headline for the news</h3>
+                <p className="text-zinc-500 md:text-base/relaxed lg:text-sm/relaxed xl:text-base/relaxed dark:text-zinc-400 mb-2">
+                  Summary for the news. This is a brief description of the news.
+                </p>
+                <Link
+                  className="inline-flex h-8 items-center justify-center rounded-md border border-zinc-200 bg-white px-6 text-sm font-medium shadow-sm transition-colors hover:bg-zinc-100 hover:text-zinc-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-zinc-950 disabled:pointer-events-none disabled:opacity-50 dark:border-zinc-800 dark:border-zinc-800 dark:bg-zinc-950 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 dark:focus-visible:ring-zinc-300"
+                  href="#"
+                >
+                  Read more
+                </Link>
+              </div>
+              <div>
+                <img
+                  alt="News"
+                  className="w-full h-32 object-cover rounded-lg mb-2"
+                  height="200"
+                  src="/placeholder.svg"
+                  width="200"
+                />
+                <h3 className="text-xl font-bold tracking-tighter mb-2">Headline for the news</h3>
+                <p className="text-zinc-500 md:text-base/relaxed lg:text-sm/relaxed xl:text-base/relaxed dark:text-zinc-400 mb-2">
+                  Summary for the news. This is a brief description of the news.
+                </p>
+                <Link
+                  className="inline-flex h-8 items-center justify-center rounded-md border border-zinc-200 bg-white px-6 text-sm font-medium shadow-sm transition-colors hover:bg-zinc-100 hover:text-zinc-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-zinc-950 disabled:pointer-events-none disabled:opacity-50 dark:border-zinc-800 dark:border-zinc-800 dark:bg-zinc-950 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 dark:focus-visible:ring-zinc-300"
+                  href="#"
+                >
+                  Read more
+                </Link>
+              </div>
+            </div>
+          </div> */}
+        </div>
+      </main>
+    </section>
+  )
+}
