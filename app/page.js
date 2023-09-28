@@ -1,5 +1,4 @@
 import Link from "next/link"
-// import { attributes, react as HomeContent } from '../content/home.md'
 import Header from "../components/header"
 import matter from "gray-matter"
 import fs from "fs"
@@ -31,9 +30,6 @@ export default async function Home() {
   const posts = await getData()
 
   const topStory = posts?.filter((post) => post?.topstory === true)
-
-  // console.log(posts, topStory);
-
 
   return (
     <section className="w-full" data-id="1">

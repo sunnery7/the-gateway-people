@@ -21,9 +21,9 @@ collections:
         name: "category",
         widget: "select", 
         options:
-          - { label: "Exclusive", value: "exclusive" }
-          - { label: "News", value: "news" }
-          - { label: "Politics", value: "politics" }
+          - {label: "Exclusive", value: "exclusive"}
+          - {label: "News", value: "news"}
+          - {label: "Politics", value: "politics"}
         }
         
 
