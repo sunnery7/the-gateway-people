@@ -1,5 +1,6 @@
 ---
 title: "My First Blog"
+category: "news"
 date: 24, August, 2021
 ---
 

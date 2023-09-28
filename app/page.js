@@ -30,7 +30,7 @@ export default async function Home() {
     
   const posts = await getData()
 
-  const topStory = posts?.filter((post) => post.topstory === true)
+  const topStory = posts?.filter((post) => post?.topstory === true)
 
   console.log(posts, topStory);
 
