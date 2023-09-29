@@ -1,5 +1,5 @@
 import Link from "next/link"
-import Header from "../../components/header"
+import Header from "../../../components/header"
 import matter from "gray-matter"
 import fs from "fs"
 
@@ -8,8 +8,6 @@ const categories = [
   {name: 'politics', title: 'Politics'},
   {name: 'business', title: 'Business'},
   {name: 'culture', title: 'Culture'},
-  // {name: 'news', title: 'News'},
-  // {name: 'news', title: 'News'}
 ]
 
 
@@ -19,6 +17,8 @@ export async function generateStaticParams() {
       slug: category.name
     }
   })
+
+  // console.log(allCats);
   return allCats
 }
 
@@ -44,10 +44,16 @@ async function getData(slug) {
   }
 }
 
-export default async function Home({params}) {
+export default async function Category({params}) {
   const {slug} = params
     
   const posts = await getData(slug)
+
+  if(!posts){
+    return(
+        <h1>Ooops</h1>
+    )
+  }
 
   return (
     <section className="w-full" data-id="1">
@@ -68,7 +74,7 @@ export default async function Home({params}) {
                     alt={post?.title}
                     className="w-full h-64 object-cover object-center rounded-lg"
                     height="400"
-                    src={`/uploads/${post?.image}`}
+                    src={post?.image ? `/${post?.image}` : `/placeholder.svg`}
                     width="600"
                   />
                   <h3 className="text-xl font-bold mb-2 mt-4" data-id="28">{post?.title}</h3>

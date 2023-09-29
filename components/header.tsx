@@ -5,9 +5,7 @@ const categories = [
     {name: 'news', title: 'News'},
     {name: 'politics', title: 'Politics'},
     {name: 'business', title: 'Business'},
-    {name: 'culture', title: 'Culture'},
-    // {name: 'news', title: 'News'},
-    // {name: 'news', title: 'News'}
+    {name: 'culture', title: 'Culture'}
 ]
 
 export default function Header(){
@@ -18,7 +16,7 @@ export default function Header(){
                     <div className="text-2xl font-bold" data-id="5"><Link href={`/`}>The Gateway People</Link></div>
                     <div className="space-x-4" data-id="6">
                         {categories.map((category) => (
-                            <Link key={category.name} className="text-zinc-900 hover:text-zinc-700" data-id="7" href={`/${category.name}`}>{category.title}</Link>
+                            <Link key={category.name} className="text-zinc-900 hover:text-zinc-700" data-id="7" href={`/category/${category.name}`}>{category.title}</Link>
                         ))}
                     </div>
                 </nav>

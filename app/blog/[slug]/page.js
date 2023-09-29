@@ -1,6 +1,9 @@
 import Header from "../../../components/header"
 import matter from "gray-matter"
 import fs from "fs"
+import ReactMarkdown from 'react-markdown'
+import { notFound } from "next/navigation";
+
 
 
 // Return a list of `params` to populate the [slug] dynamic segment
@@ -33,7 +36,7 @@ async function getData(slug) {
 }
 
 export default async function Post({params}) {
-    const {slug} = params
+  const {slug} = params
   const post = await getData(slug)
 
 //   const otherStory = posts.filter((post) => post.topstory === true)
@@ -50,11 +53,14 @@ export default async function Post({params}) {
               alt="Top Story"
               className="w-full h-64 object-cover rounded-lg mb-4"
               height="500"
-              src={`/uploads/${post?.frontmatter.image}`}
+              src={post?.frontmatter.image ? `/${post?.frontmatter.image}` : `/placeholder.svg`}
               width="1000"
             />
             {/* <h3 className="text-2xl font-bold tracking-tighter mb-2">Headline for the top story</h3> */}
-            <p className="text-zinc-900 md:text-lg/relaxed lg:text-base/relaxed xl:text-lg/relaxed mb-4">{post?.markdown}</p>
+            <ReactMarkdown>
+              {post?.markdown}
+            </ReactMarkdown>
+            {/* <p className="text-zinc-900 md:text-lg/relaxed lg:text-base/relaxed xl:text-lg/relaxed mb-4">{post?.markdown}</p> */}
           </div>
 
           {/* <div>
