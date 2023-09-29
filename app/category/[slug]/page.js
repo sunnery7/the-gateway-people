@@ -71,7 +71,7 @@ export default async function Category({params}) {
                 <div data-id="26">
                   <img
                     alt={post?.title}
-                    className="w-full h-64 object-cover object-center rounded-lg"
+                    className="w-full h-64 object-cover object-top rounded-lg"
                     height="400"
                     src={post?.image ? `/${post?.image}` : `/placeholder.svg`}
                     width="600"

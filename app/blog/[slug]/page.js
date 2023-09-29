@@ -49,7 +49,7 @@ export default async function Post({params}) {
             <h2 className="text-xl font-bold tracking-tighter mb-4">{post?.frontmatter.title}</h2>
             <img
               alt="Top Story"
-              className="w-full h-64 object-cover rounded-lg mb-4"
+              className="w-full h-96 object-cover object-top rounded-lg mb-4"
               height="500"
               src={post?.frontmatter.image ? `/${post?.frontmatter.image}` : `/placeholder.svg`}
               width="1000"
