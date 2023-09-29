@@ -27,9 +27,10 @@ async function getData() {
 
 export default async function Home() {
     
-  const posts = await getData()
+  const allPost = await getData()
+  const posts = allPost.filter((post) => post.topstory === false)
 
-  const topStory = posts?.filter((post) => post?.topstory === true)[0]
+  const topStory = allPost?.filter((post) => post?.topstory === true)[0]
 
   return (
     <section className="w-full" data-id="1">

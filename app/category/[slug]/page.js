@@ -4,12 +4,13 @@ import matter from "gray-matter"
 import fs from "fs"
 
 const categories = [
-  {name: 'news', title: 'News'},
-  {name: 'politics', title: 'Politics'},
-  {name: 'business', title: 'Business'},
-  {name: 'culture', title: 'Culture'},
+    {name: 'exclusive', title: 'Exclusive'},
+    {name: 'news', title: 'News'},
+    {name: 'politics', title: 'Politics'},
+    {name: 'opinion', title: 'Opinion'},
+    {name: 'interviews', title: 'Interviews'},
+    {name: 'culture', title: 'Culture'},
 ]
-
 
 export async function generateStaticParams() {
   const allCats = categories.map(category => {
@@ -18,7 +19,6 @@ export async function generateStaticParams() {
     }
   })
 
-  // console.log(allCats);
   return allCats
 }
 
@@ -37,7 +37,6 @@ async function getData(slug) {
     })
 
     const posts = allPost?.filter((post) => post.category === slug)
-
     return posts
   } catch (error) {
     
