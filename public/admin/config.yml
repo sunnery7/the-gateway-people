@@ -3,6 +3,8 @@ backend:
   branch: main # Branch to update (optional; defaults to master)
 media_folder: public/uploads
 public_folder: uploads
+publish_mode: editorial_workflow # For Drafts
+
 collections:
   - name: "posts"
     label: "Posts"

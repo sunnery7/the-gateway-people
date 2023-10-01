@@ -77,7 +77,7 @@ export default async function Category({params}) {
                     width="600"
                   />
                   <h3 className="text-xl font-bold mb-2 mt-4" data-id="28">{post?.title}</h3>
-                  <p className="text-zinc-500 dark:text-zinc-400" data-id="29">{post?.headline}</p>
+                  {/* <p className="text-zinc-500 dark:text-zinc-400" data-id="29">{post?.headline}</p> */}
                 </div>
               </Link>
             ))}

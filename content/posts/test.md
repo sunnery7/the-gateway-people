@@ -8,7 +8,7 @@ date: 2023-09-29T11:53:55.923Z
 image:
   - uploads/professor-emmanuel-afolabi.jpeg
 rating: 3
-topstory: true
+topstory: false
 category: news
 ---
 Today marks the 20th memorial anniversary of the late Professor Emmanuel Afolabi Atanda Olabimtan. 
