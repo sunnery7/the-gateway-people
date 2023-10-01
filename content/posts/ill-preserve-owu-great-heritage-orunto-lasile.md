@@ -4,7 +4,7 @@ headline: Akogun. Obamaja. Orunto, Osupori. Oyega and Omolashin are chieftaincy
   holders that are members of the highest decision making body of the ancient
   Owu Kingdom in Abeokuta, the Ogun State capital.
 date: 2023-10-01T14:54:51.488Z
-category: news
+category: interviews
 topstory: false
 image: uploads/img_org_1689190455095-1-1.jpg
 rating: 3
