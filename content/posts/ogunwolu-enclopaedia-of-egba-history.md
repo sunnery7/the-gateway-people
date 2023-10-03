@@ -4,7 +4,7 @@ headline: He is a prince from the Egiri Ruling House of the Gbagura section of
   the Abeokuta, the political capital of the Egba people and the Ogun State
   capital.
 date: 2023-10-01T06:33:26.458Z
-category: interviews
+category: exclusive
 topstory: false
 image: uploads/ogunwolu.jpeg
 rating: 3
