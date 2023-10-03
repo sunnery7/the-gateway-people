@@ -3,7 +3,7 @@ title: Bankole is new Apena Egba!
 headline: Bankole, the Oluwo Iporo and the father of former speaker of the House
   of Representatives, Hon. Dimeji Bankole was born on September 17, 1941.
 date: 2023-10-01T06:00:59.724Z
-category: news
+category: culture
 topstory: false
 image: uploads/bankole-apena-egba.jpeg
 rating: 3
