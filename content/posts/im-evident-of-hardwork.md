@@ -3,7 +3,7 @@ title: "\"I'm evident of hardwork\""
 headline: She spoke against the backdrop of her emergence as the overall best
   student during this year graduation ceremony of the centre.
 date: 2023-10-01T06:29:46.396Z
-category: opinion
+category: exclusive
 topstory: false
 image: uploads/favour.jpeg
 rating: 3

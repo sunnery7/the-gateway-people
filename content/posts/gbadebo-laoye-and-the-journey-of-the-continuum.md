@@ -4,7 +4,7 @@ headline: It was not surprising that the people of Egbaland rolled out the drums
   to celebrate His Majesty, Oba Aremu Gbadebo, the Alake of Egbaland, when he
   marked his 80th birthday on September 14.
 date: 2023-10-01T06:39:18.139Z
-category: news
+category: opinion
 topstory: false
 image: uploads/alake-gbadebo.jpeg
 rating: 3

@@ -5,7 +5,7 @@ headline: It is a common expression among litigants at the Egba local court,
   capital.
 date: 2023-10-01T06:42:05.012Z
 category: culture
-topstory: true
+topstory: false
 image: uploads/ejokusake.jpeg
 rating: 4
 ---
