@@ -1,5 +1,5 @@
 ---
-title: Let’s save Aremo Taiwo Allimi’s life
+title: Let's save Aremo Taiwo Allimi's life
 headline: "A star of Taiwo Allimi’s calibre must not be allowed to dim so soon,
   as his brain is still needed to re-jig the broadcast industry. "
 date: 2023-10-08T08:36:32.212Z
