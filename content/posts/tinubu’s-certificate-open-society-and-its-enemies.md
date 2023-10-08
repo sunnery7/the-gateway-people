@@ -1,5 +1,5 @@
 ---
-title: Tinubu’s certificate, open society and its enemies
+title: Tinubu's certificate, open society and its enemies
 headline: Who is the man who today sits atop the presidency of Nigeria? What is
   his name? Who are his parents? Who are his childhood friends? What was his
   childhood like? What primary school did he attend? Where did he attend
