@@ -6,7 +6,7 @@ headline: Who is the man who today sits atop the presidency of Nigeria? What is
   secondary school? Or, the university? Is he a criminal? Is he a serial forger?
 date: 2023-10-08T09:00:11.713Z
 category: opinion
-topstory: false
+topstory: true
 image: uploads/tinubu.webp
 rating: 3
 ---
