@@ -9,7 +9,7 @@ async function getData() {
   try {
     const filesInPosts = fs.readdirSync('./content/posts')
 
-    const posts = filesInPosts.slice(0, 15).map(filename => {
+    const posts = filesInPosts.map(filename => {
       const file = fs.readFileSync(`./content/posts/${filename}`, 'utf8')
       const matterData = matter(file)
 
@@ -28,7 +28,13 @@ async function getData() {
 export default async function Home() {
     
   const allPost = await getData()
-  const posts = allPost.filter((post) => post.topstory === false)
+
+  const posts = allPost.filter((post) => post.topstory === false).map(obj => ({...obj, date: new Date(obj.date)}))
+
+  const sortedPost = posts.sort(
+    (objA, objB) => Number(objB.date) - Number(objA.date),
+  );
+  
 
   const topStory = allPost?.filter((post) => post?.topstory === true)[0]
 
@@ -68,8 +74,8 @@ export default async function Home() {
 
         <section className="mb-8" data-id="23">
           {/* <h2 className="text-2xl font-bold mb-4" data-id="24">Politics</h2> */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6" data-id="25">
-            {posts?.map((post, idx) => (
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-6" data-id="25">
+            {sortedPost?.map((post, idx) => (
               <Link key={idx} href={`/blog/${post?.slug}`}>
                 <div data-id="26">
                   <img
@@ -79,7 +85,7 @@ export default async function Home() {
                     src={post?.image ? `/${post?.image}` : `/placeholder.svg`}
                     width="600"
                   />
-                  <h3 className="text-xl font-bold mb-2 mt-4" data-id="28">{post?.title}</h3>
+                  <h3 className="text-lg font-semibold mb-2 mt-4" data-id="28">{post?.title}</h3>
                   <p className="text-zinc-500 dark:text-zinc-400" data-id="29">{post?.headline}</p>
                 </div>
               </Link>

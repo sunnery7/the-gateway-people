@@ -2,6 +2,8 @@ import Header from "../../../components/header"
 import matter from "gray-matter"
 import fs from "fs"
 import ReactMarkdown from 'react-markdown'
+import Share from "../../../components/share"
+import Comment from "../../../components/comment"
 
 
 // Return a list of `params` to populate the [slug] dynamic segment
@@ -37,7 +39,7 @@ export default async function Post({params}) {
   const {slug} = params
   const post = await getData(slug)
 
-//   const otherStory = posts.filter((post) => post.topstory === true)
+  const url = `https://thegatewaypeople.com/blog/${slug}`
 
   return (
     <section className="w-full" data-id="1">
@@ -46,66 +48,29 @@ export default async function Post({params}) {
       <main className="container mx-auto px-4 md:px-6 py-8" data-id="13">
       <div className="">
           <div className="lg:w-1/2 m-auto">
-            <h2 className="text-xl font-bold tracking-tighter mb-4">{post?.frontmatter.title}</h2>
+            <h2 className="text-xl font-semiboold tracking-tighter mb-2">{post?.frontmatter.title}</h2>
             <img
               alt="Top Story"
-              className="w-full h-96 object-cover object-top rounded-lg mb-4"
+              className="w-full h-96 object-cover object-top rounded-lg mb-1"
               height="500"
               src={post?.frontmatter.image ? `/${post?.frontmatter.image}` : `/placeholder.svg`}
               width="1000"
             />
-            {/* <h3 className="text-2xl font-bold tracking-tighter mb-2">Headline for the top story</h3> */}
+            <div className="flex justify-between items-center">
+              <span className="text-sm italic text-bold mb-2 text-purple-600">{new Date(post?.frontmatter.date).toDateString()}</span>
+              <div>
+                <Share url={url} />
+              </div>
+            </div>
             <div className="post-content">
               <ReactMarkdown>
                 {post?.markdown}
               </ReactMarkdown>
             </div>
-            {/* <p className="text-zinc-900 md:text-lg/relaxed lg:text-base/relaxed xl:text-lg/relaxed mb-4">{post?.markdown}</p> */}
           </div>
-
-          {/* <div>
-            <h2 className="text-2xl font-bold tracking-tighter mb-4">Other News</h2>
-            <div className="space-y-6">
-              <div>
-                <img
-                  alt="News"
-                  className="w-full h-32 object-cover rounded-lg mb-2"
-                  height="200"
-                  src="/placeholder.svg"
-                  width="200"
-                />
-                <h3 className="text-xl font-bold tracking-tighter mb-2">Headline for the news</h3>
-                <p className="text-zinc-500 md:text-base/relaxed lg:text-sm/relaxed xl:text-base/relaxed dark:text-zinc-400 mb-2">
-                  Summary for the news. This is a brief description of the news.
-                </p>
-                <Link
-                  className="inline-flex h-8 items-center justify-center rounded-md border border-zinc-200 bg-white px-6 text-sm font-medium shadow-sm transition-colors hover:bg-zinc-100 hover:text-zinc-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-zinc-950 disabled:pointer-events-none disabled:opacity-50 dark:border-zinc-800 dark:border-zinc-800 dark:bg-zinc-950 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 dark:focus-visible:ring-zinc-300"
-                  href="#"
-                >
-                  Read more
-                </Link>
-              </div>
-              <div>
-                <img
-                  alt="News"
-                  className="w-full h-32 object-cover rounded-lg mb-2"
-                  height="200"
-                  src="/placeholder.svg"
-                  width="200"
-                />
-                <h3 className="text-xl font-bold tracking-tighter mb-2">Headline for the news</h3>
-                <p className="text-zinc-500 md:text-base/relaxed lg:text-sm/relaxed xl:text-base/relaxed dark:text-zinc-400 mb-2">
-                  Summary for the news. This is a brief description of the news.
-                </p>
-                <Link
-                  className="inline-flex h-8 items-center justify-center rounded-md border border-zinc-200 bg-white px-6 text-sm font-medium shadow-sm transition-colors hover:bg-zinc-100 hover:text-zinc-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-zinc-950 disabled:pointer-events-none disabled:opacity-50 dark:border-zinc-800 dark:border-zinc-800 dark:bg-zinc-950 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 dark:focus-visible:ring-zinc-300"
-                  href="#"
-                >
-                  Read more
-                </Link>
-              </div>
-            </div>
-          </div> */}
+        </div>
+        <div className="mt-20">
+          <Comment url={url} slug={slug} />
         </div>
       </main>
     </section>
