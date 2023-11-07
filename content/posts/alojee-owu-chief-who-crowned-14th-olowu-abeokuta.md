@@ -5,7 +5,7 @@ headline: Prominent among them was Alojee, an Owu chieftaincy title which is
 date: 2023-10-19T13:03:47.134Z
 category: culture
 topstory: false
-image: uploads/aloje-owu.jpeg
+image: uploads/owu-chief.jpeg
 rating: 3
 ---
 Many Owu chiefs played important roles in the coronation of Oba Saka Matemilola, Oluyalo Otileta VII as the 14th Olowu of Owu-Abeokuta, the Ogun State capital.
