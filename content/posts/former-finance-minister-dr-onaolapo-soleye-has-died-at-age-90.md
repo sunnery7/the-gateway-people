@@ -1,5 +1,5 @@
 ---
-title: Former Finance Minister, Dr. Onaolapo Soleye, has died at  age 90.
+title: Daniel mourns,  as Soleye Dies Four Days After 90th Birthday
 headline: Former Finance Minister, Dr. Onaolapo Soleye, has died at  age 90.
 date: 2023-11-16T17:45:09.649Z
 category: news
