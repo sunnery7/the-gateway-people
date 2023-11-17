@@ -4,7 +4,7 @@ headline: His passage was expected after doctors gave up on his undisclosed
   illness and asked his family members to return him home days after  his
   admission at the Sacred Heart Hospital, Lantoro, Abeokuta.
 date: 2023-11-16T07:06:10.908Z
-category: news
+category: culture
 topstory: false
 image: uploads/oba-ajibola.jpeg
 rating: 3
