@@ -4,6 +4,8 @@ import fs from "fs"
 import ReactMarkdown from 'react-markdown'
 import Share from "../../../components/share"
 import Comment from "../../../components/comment"
+import Footer from "../../../components/footer"
+
 
 
 // Return a list of `params` to populate the [slug] dynamic segment
@@ -48,7 +50,7 @@ export default async function Post({params}) {
       <main className="container mx-auto px-4 md:px-6 py-8" data-id="13">
       <div className="">
           <div className="lg:w-1/2 m-auto">
-            <h2 className="text-xl font-semiboold tracking-tighter mb-2">{post?.frontmatter.title}</h2>
+            <h2 className="text-xl font-semiboold tracking-tighter mb-2 text-red-800">{post?.frontmatter.title}</h2>
             <img
               alt="Top Story"
               className="w-full h-96 object-cover object-top rounded-lg mb-1"
@@ -57,7 +59,7 @@ export default async function Post({params}) {
               width="1000"
             />
             <div className="flex justify-between items-center">
-              <span className="text-sm italic text-bold mb-2 text-purple-600">{new Date(post?.frontmatter.date).toDateString()}</span>
+              <span className="text-sm italic text-bold mb-2 text-red-800">{new Date(post?.frontmatter.date).toDateString()}</span>
               <div>
                 <Share url={url} />
               </div>
@@ -73,6 +75,7 @@ export default async function Post({params}) {
           <Comment url={url} slug={slug} />
         </div>
       </main>
+      <Footer />
     </section>
   )
 }

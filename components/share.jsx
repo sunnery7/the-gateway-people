@@ -1,27 +1,25 @@
 'use client'
 
-import { FacebookIcon, FacebookShareButton, LinkedinIcon, LinkedinShareButton, RedditIcon, RedditShareButton, TelegramIcon, TelegramShareButton, TwitterIcon, TwitterShareButton, WhatsappIcon, WhatsappShareButton } from "react-share";
+import {ShareSocial} from 'react-share-social' 
 
+const style = {
+    root: {
+      padding: '0',
+    },
+    copyContainer: {
+      display: 'none'
+    },
+  };
 
 export default function Share({url}){
 
     return(
         <>
-            <FacebookShareButton url={url} quote="" className="mx-1">
-                <FacebookIcon size={32} round />
-            </FacebookShareButton>
-            <WhatsappShareButton url={url} quote="" className="mx-1">
-                <WhatsappIcon size={32} round />
-            </WhatsappShareButton>
-            <TwitterShareButton url={url} quote="" className="mx-1">
-                <TwitterIcon size={32} round />
-            </TwitterShareButton>
-            <TelegramShareButton url={url} quote="" className="mx-1">
-                <TelegramIcon size={32} round />
-            </TelegramShareButton>
-            <LinkedinShareButton url={url} quote="" className="mx-1">
-                <LinkedinIcon size={32} round />
-            </LinkedinShareButton>
+            <ShareSocial 
+                style = {style}
+                  url = {url}
+                  socialTypes={['facebook','whatsapp','telegram',,'twitter','reddit','linkedin']}
+                />
         </>
     )
 }

@@ -2,13 +2,14 @@ import Link from "next/link"
 import Header from "../../../components/header"
 import matter from "gray-matter"
 import fs from "fs"
+import Footer from "../../../components/footer"
 
 const categories = [
     {name: 'exclusive', title: 'Exclusive'},
     {name: 'news', title: 'News'},
     {name: 'politics', title: 'Politics'},
     {name: 'opinion', title: 'Opinion'},
-    {name: 'interviews', title: 'Interviews'},
+    {name: 'interview', title: 'Interview'},
     {name: 'culture', title: 'Culture'},
 ]
 
@@ -82,7 +83,7 @@ export default async function Category({params}) {
                     src={post?.image ? `/${post?.image}` : `/placeholder.svg`}
                     width="600"
                   />
-                  <h3 className="text-lg font-semibold mb-2 mt-4" data-id="28">{post?.title}</h3>
+                  <h3 className="text-lg font-semibold mb-2 mt-4 text-red-800" data-id="28">{post?.title}</h3>
                   {/* <p className="text-zinc-500 dark:text-zinc-400" data-id="29">{post?.headline}</p> */}
                 </div>
               </Link>
@@ -90,6 +91,7 @@ export default async function Category({params}) {
           </div>
         </section>
       </main>
+      <Footer />
     </section>
   )
 }

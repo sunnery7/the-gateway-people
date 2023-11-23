@@ -5,7 +5,7 @@ headline: Although, Alasholoye, is  General Manager of Ereke Paints,
   inspiritional words speak volume of  her love for creative things.
 date: 2023-10-26T10:46:38.222Z
 category: exclusive
-topstory: true
+topstory: false
 image: uploads/arts.jpeg
 rating: 3
 ---

@@ -1,5 +1,6 @@
 import Link from "next/link"
 import Header from "../components/header"
+import Footer from "../components/footer"
 import matter from "gray-matter"
 import fs from "fs"
 
@@ -75,7 +76,7 @@ export default async function Home() {
         <section className="mb-8" data-id="23">
           {/* <h2 className="text-2xl font-bold mb-4" data-id="24">Politics</h2> */}
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6" data-id="25">
-            {sortedPost?.map((post, idx) => (
+            {sortedPost?.slice(0,32).map((post, idx) => (
               <Link key={idx} href={`/blog/${post?.slug}`}>
                 <div data-id="26">
                   <img
@@ -85,7 +86,7 @@ export default async function Home() {
                     src={post?.image ? `/${post?.image}` : `/placeholder.svg`}
                     width="600"
                   />
-                  <h3 className="text-lg font-semibold mb-2 mt-4" data-id="28">{post?.title}</h3>
+                  <h3 className="text-lg font-semibold mb-2 mt-4 text-red-800" data-id="28">{post?.title}</h3>
                   <p className="text-zinc-500 dark:text-zinc-400" data-id="29">{post?.headline}</p>
                 </div>
               </Link>
@@ -93,6 +94,8 @@ export default async function Home() {
           </div>
         </section>
       </main>
+
+      <Footer />
     </section>
   )
 }

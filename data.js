@@ -3,6 +3,6 @@ export const categories = [
     {name: 'news', title: 'News'},
     {name: 'politics', title: 'Politics'},
     {name: 'opinion', title: 'Opinion'},
-    {name: 'interviews', title: 'Interviews'},
+    {name: 'interview', title: 'Interview'},
     {name: 'culture', title: 'Culture'},
 ]
