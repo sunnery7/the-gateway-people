@@ -11,10 +11,11 @@ export default function Header(){
                     <div>
                         <Link href={`/`}>
                             <div className="text-[#bd23bd] leading-3" data-id="5">
-                                <div className="text-2xl font-bold flex justify-center">
-                                    <img src="/logo.jpeg" alt="logo" className="w-60" />
+                                <div className=" m-auto flex items-center justify-center">
+                                    {/* <img src="/logo.jpeg" alt="logo" className="w-full" /> */}
+                                    <h1 className="font-bold text-2xl">The Gateway People</h1>
                                 </div>
-                                {/* <span className="text-xs italic">...promoting dignity, cultures, places</span> */}
+                                <span className="text-xs italic">...promoting dignity, cultures, places</span>
                             </div>
                         </Link>
                     </div>
