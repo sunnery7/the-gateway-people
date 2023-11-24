@@ -11,28 +11,32 @@ export default function About() {
         <Header />
       <main className="flex-1 bg-gray-100 p-6">
         <section className="mb-8">
-          <h1 className="text-4xl font-bold mb-2">About Us</h1>
-          <p className="text-gray-700">We are committed to delivering high-quality, up-to-date and unbiased news to our readers.</p>
+          <h1 className="text-4xl font-bold mb-2 mt-5">About Us</h1>
+          {/* <p className="text-gray-700">The Gatewaypeople is published by THE GATEWAY PEOPLE MAGAZINES & NEWSPAPERS LTD.</p> */}
         </section>
         <section>
-          <h2 className="text-3xl font-bold mb-2">Our Organization</h2>
+          {/* <h2 className="text-3xl font-bold mb-2">Our Organization</h2> */}
           <p className="text-gray-700 mb-4">
-            The Gateway People is published by The Gateway People Magazines & Newspapers Ltd. <br />
-            Registered on October 16,  2018, it was incorporated in Abeokuta, Ogun State, Nigeria with registration number 1531820.
+            The Gateway People is published by THE GATEWAY PEOPLE MAGAZINES & NEWSPAPERS LTD. <br />
+            It was incorporated in Abeokuta, the Ogun State Capital, Southwest, Nigeria with Registration Number 1531820. <br/>
+            Registered by the Corporate Affairs Commission  on October 16, 2018, its registered office address is 22, Ake Road, Ijemo, Abeokuta, Ogun State.
           </p>
-          <p className="text-gray-700">
+          <div>
+            <h3 className="text-lg font-semibold mb-2">Do you have an assignment for us?</h3>
+            <p className="text-gray-700">22, Ake Road, Ijemo, Abeokuta, Ogun State.</p>
+            <p className="text-gray-700"> 08033329013, 08055030404</p>
+            <p className="text-gray-700"> thegatewaypeople@gmail.com</p>
+          </div>
+          {/* <p className="text-gray-700">
             Our team of experienced journalists are passionate about bringing you the most important stories, and
             shedding light on the issues that matter.
-          </p>
+          </p> */}
         </section>
       </main>
       <footer className="bg-white p-6 shadow-md">
         <div className="flex justify-between items-center">
           <div>
-            <h3 className="text-lg font-semibold mb-2">Contact Us</h3>
-            <p className="text-gray-700">22, Ake Road, Ijemo, Abeokuta, Ogun State.</p>
-            <p className="text-gray-700"> 08033329013, 08055030404</p>
-            <p className="text-gray-700"> thegatewaypeople@gmail.com</p>
+            <p className="text-gray-700"> The Gateway People</p>
           </div>
           <div className="space-x-4">
             <Link href="#">
