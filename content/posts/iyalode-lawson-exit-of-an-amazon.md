@@ -4,7 +4,7 @@ headline: The casket that contained her remains was drapped in the African Churc
 date: 2023-12-12T18:58:17.914Z
 category: exclusive
 topstory: true
-image: uploads/iyalode.jpeg
+image: uploads/iyalode-exit.jpeg
 ---
 She would have been 73 years old on January 18, 2024. But 100 days to her birthday, Iyalode Alaba Lawson kissed the ground after a brief illness.
 
