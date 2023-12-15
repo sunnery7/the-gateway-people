@@ -23,9 +23,7 @@ export default function About() {
           </p>
           <div>
             <h3 className="text-lg font-semibold mb-2">Do you have an assignment for us?</h3>
-            <p className="text-gray-700">22, Ake Road, Ijemo, Abeokuta, Ogun State.</p>
-            <p className="text-gray-700"> 08033329013, 08055030404</p>
-            <p className="text-gray-700"> thegatewaypeople@gmail.com</p>
+            <p className="text-gray-700">Reach out through our e-mail: thegatewaypeople@gmail.com OR Mobile No. 08033329013,  08055030404</p>
           </div>
           {/* <p className="text-gray-700">
             Our team of experienced journalists are passionate about bringing you the most important stories, and
