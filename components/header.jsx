@@ -10,7 +10,7 @@ export default function Header(){
                 <nav className="text-center" data-id="4">
                     <div>
                         <Link href={`/`}>
-                            <div className="text-[#bd23bd] leading-3" data-id="5">
+                            <div className="text-red-800 leading-3" data-id="5">
                                 <div className=" m-auto flex items-center justify-center">
                                     {/* <img src="/logo.jpeg" alt="logo" className="w-full" /> */}
                                     <h1 className="font-bold text-2xl">The Gateway People</h1>
