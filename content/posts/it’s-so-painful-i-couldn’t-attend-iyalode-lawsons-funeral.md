@@ -1,5 +1,5 @@
 ---
-title: It’s so painful I couldn’t attend Iyalode Lawson's Funeral
+title: It's so painful I couldn't attend Iyalode Lawson's Funeral
 headline: No thanks to resumption of sabbatical leave in a university that is
   miles away from Abeokuta.
 date: 2023-12-12T18:59:23.989Z
