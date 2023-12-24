@@ -83,8 +83,8 @@ export default async function Category({params}) {
                     src={post?.image ? `/${post?.image}` : `/placeholder.svg`}
                     width="600"
                   />
-                  <h3 className="text-lg font-semibold mb-2 mt-4 text-red-800" data-id="28">{post?.title}</h3>
-                  {/* <p className="text-zinc-500 dark:text-zinc-400" data-id="29">{post?.headline}</p> */}
+                  <h3 className="text-lg font-semibold mb-2 mt-4 hover:text-red-600 capitalize" data-id="28">{post?.title}</h3>
+                  <p className="text-zinc-500 dark:text-zinc-600" data-id="29">{post?.headline}</p>
                 </div>
               </Link>
             ))}

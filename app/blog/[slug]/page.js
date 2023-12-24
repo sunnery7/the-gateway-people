@@ -27,6 +27,7 @@ export async function generateMetadata({ params, searchParams }, parent) {
     description: post?.frontmatter.headline,
     robots: 'noindex, follow, nocache',
     googlebot: 'index, nofollow, noimageindex, max-video-preview:-1, max-image-preview:large, max-snippet:-1',
+    metadataBase: new URL('https://thegatewaypeople.com'),
     alternates: {
       canonical: blogPage,
     },
@@ -84,18 +85,18 @@ export default async function Post({params}) {
       <main className="container mx-auto px-4 md:px-6 py-8" data-id="13">
       <div className="">
           <div className="lg:w-1/2 m-auto">
-            <h1 className="text-xl font-semiboold tracking-tighter mb-2 text-red-800">{post?.frontmatter.title}</h1>
-            <img
-              alt="Top Story"
-              className="w-full h-96 object-cover object-top rounded-lg mb-1"
-              height="500"
-              src={post?.frontmatter.image ? `/${post?.frontmatter.image}` : `/placeholder.svg`}
-              width="1000"
-            />
+            <h1 className="text-2xl font-semibold tracking-normal mb-2 capitalize">{post?.frontmatter.title}</h1>
+            <div className="h-80 sm:h-[400px] w-full">
+              <img
+                alt="Top Story"
+                className="w-full h-full"
+                src={post?.frontmatter.image ? `/${post?.frontmatter.image}` : `/placeholder.svg`}
+              />
+            </div>
             <div className="">
-              <div className="text-sm italic text-bold text-red-800">{new Date(post?.frontmatter.date).toDateString()}</div>
+              <div className="text-sm italic text-bold text-red-600">{new Date(post?.frontmatter.date).toDateString()}</div>
               <div>
-                <Share url={url} />
+                <Share url={url} post={post} />
               </div>
             </div>
             <div className="post-content">
