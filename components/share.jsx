@@ -23,16 +23,20 @@ export default function Share({url, post}){
 
                 /> */}
 
+          {typeof window !== 'undefined' ? 
           <ShareOnSocial
-                textToShare={post?.frontmatter.title}
-                link={url}
-                linkTitle={post?.frontmatter.title}
-                linkMetaDesc={post?.frontmatter.headline}
-                linkFavicon={`https://thegatewaypeople.com/${post?.frontmatter.image}`}
-                noReferer
-              >
-                <button><img className="w-32" src="/share.jpeg" /> </button>
-              </ShareOnSocial>
+          textToShare={post?.frontmatter.title}
+          link={url}
+          linkTitle={post?.frontmatter.title}
+          linkMetaDesc={post?.frontmatter.headline}
+          linkFavicon={`https://thegatewaypeople.com/${post?.frontmatter.image}`}
+          noReferer
+        >
+          <button><img className="w-32" src="/share.jpeg" /> </button>
+        </ShareOnSocial>
+        
+        :''}
+          
         </>
     )
 }
