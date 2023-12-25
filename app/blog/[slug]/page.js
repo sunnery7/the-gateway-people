@@ -89,7 +89,7 @@ export default async function Post({params}) {
             <div className="h-80 sm:h-[400px] w-full">
               <img
                 alt="Top Story"
-                className="w-full h-full"
+                className="w-full h-full object-contain bg-gray-200"
                 src={post?.frontmatter.image ? `/${post?.frontmatter.image}` : `/placeholder.svg`}
               />
             </div>

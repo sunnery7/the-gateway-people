@@ -72,17 +72,17 @@ export default async function Category({params}) {
 
         <section className="mb-8" data-id="23">
           {/* <h2 className="text-2xl font-bold mb-4" data-id="24">Politics</h2> */}
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-6" data-id="25">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-12" data-id="25">
             {sortedPost?.map((post, idx) => (
               <Link key={idx} href={`/blog/${post?.slug}`}>
                 <div data-id="26">
-                  <img
-                    alt={post?.title}
-                    className="w-full h-64 object-cover object-top rounded-lg"
-                    height="400"
-                    src={post?.image ? `/${post?.image}` : `/placeholder.svg`}
-                    width="600"
-                  />
+                  <div data-id="26" className="w-[250] h-[250px]">
+                    <img
+                      alt={post?.title}
+                      className="w-full h-full rounded-lg object-contain bg-gray-200"
+                      src={post?.image ? `/${post?.image}` : `/placeholder.svg`}
+                    />
+                  </div>
                   <h3 className="text-lg font-semibold mb-2 mt-4 hover:text-red-600 capitalize" data-id="28">{post?.title}</h3>
                   <p className="text-zinc-500 dark:text-zinc-600" data-id="29">{post?.headline}</p>
                 </div>
