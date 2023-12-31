@@ -5,7 +5,7 @@ headline: It is a difficult task to have to pen a tribute and sing a dirge for a
 date: 2023-12-22T00:05:39.080Z
 category: opinion
 topstory: false
-image: /uploads/images-1-.jpeg
+image: uploads/images-1-.jpeg
 ---
 It is a difficult task to have to pen a tribute and sing a dirge for a departing soul. It is a more difficult job in our African culture when one is compelled to do so for a younger person.
 
