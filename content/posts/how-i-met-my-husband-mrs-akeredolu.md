@@ -5,7 +5,7 @@ headline: "That was how we met and it was love at first sight. I think people
 date: 2023-12-29T08:17:32.805Z
 category: news
 topstory: false
-image: /uploads/aketi-and-wife.jpeg
+image: uploads/aketi-and-wife.jpeg
 ---
 I met my husband in Enugu, he was a youth corper then in Enugu. I was also posted to Enugu. So a friend of mine visited me and she came along with her boyfriend who also came along with my husband. 
 
