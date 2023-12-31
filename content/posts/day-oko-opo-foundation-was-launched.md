@@ -5,7 +5,7 @@ headline: "The bus stop was the Pelican Valley Estate, Laderin Area of the
 date: 2023-12-29T21:20:14.273Z
 category: news
 topstory: false
-image: /uploads/img-20231229-wa0009.jpg
+image: uploads/img-20231229-wa0009.jpg
 ---
 At about 8.27 am, the bus ferrying them from different designated spots in Abeokuta, the Ogun State capital pulled to a stop. 
 
