@@ -5,7 +5,7 @@ headline: High temperature presently in Nigeria is forcing reptiles, including
   it is your home or office.
 date: 2024-01-10T06:26:43.177Z
 category: news
-topstory: false
+topstory: true
 image: uploads/snake.jpeg
 ---
 “High temperature presently in Nigeria is forcing reptiles, including poisonous snakes out of holes in search of a cool place. They do not care if it is your home or office.”
