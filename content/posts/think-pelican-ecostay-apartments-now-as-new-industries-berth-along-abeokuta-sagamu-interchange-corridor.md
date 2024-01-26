@@ -5,7 +5,7 @@ headline: "This has begun has multiple factories are established within 36
   kilometres interchange corridor. "
 date: 2024-01-12T13:32:59.386Z
 category: opinion
-topstory: true
+topstory: false
 image: uploads/img-20240112-wa0001.jpg
 ---
 A new economic hub is emerging in Ogun, the Gateway State. It is happening along the corridor of Kobape – Siun – Sagamu interchange road. Multinational companies are springing up steadily on that stretch as investors continue to reckon Ogun State as their destination of choice.
