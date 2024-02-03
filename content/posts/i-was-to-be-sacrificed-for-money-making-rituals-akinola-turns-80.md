@@ -4,7 +4,7 @@ headline: The unfortunate situation forced the young Agoba; Abeokuta-born boy
   out of school!.
 date: 2024-01-26T14:12:03.541Z
 category: opinion
-topstory: true
+topstory: false
 image: uploads/akinola.jpeg
 ---
 At age four, the world looked bleak for young Peter Jasper Akinola following the sudden death of his father.
