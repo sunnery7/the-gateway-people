@@ -5,7 +5,7 @@ headline: The polytechnic model is hands-on and industry-responsive. They are
   that are beneficial to societal development.
 date: 2024-02-03T12:26:54.888Z
 category: opinion
-topstory: true
+topstory: false
 image: uploads/mapoly.jpeg
 ---
 Polytechnics are post-secondary institutions that offer advanced technical education. 
