@@ -4,7 +4,7 @@ headline: He was appointed into the Nigeria Police Force as a Cadet Assistant
   Superintendent of Police (ASP) Course 16 in the year 1990.
 date: 2024-02-08T03:56:41.580Z
 category: news
-topstory: true
+topstory: false
 image: uploads/durosinmi.jpeg
 ---
 Assistant Inspector General of Police, (AIG), Olatoye A. Durosinmi, LLB, BL, LLM, has assumed office as the AIG in-charge of Zone 2 Command, comprising Lagos and Ogun States.
