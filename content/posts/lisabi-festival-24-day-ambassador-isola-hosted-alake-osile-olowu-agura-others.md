@@ -5,7 +5,7 @@ headline: The visitation was led by the Alake and paramount ruler of Egbaland,
   Oba Adedotun Aremu Gbadebo, the Okukenu IV.
 date: 2024-03-09T19:50:05.525Z
 category: culture
-topstory: true
+topstory: false
 image: uploads/lisabiday.jpeg
 ---
 It was an historic day laced with culture, tradition and gratitude in Abeokuta, the Ogun State capital last Thursday as the immediate past Nigeria's High Commissioner to the United Kingdom, His Excellency, Ambassador Sarafa Tunji Isola led the extended family members of the late Balogun Ilugun and Otun Egba, Chief Buraimoh Tairu Olaleye to receive the four Egba historical  monarchs.
