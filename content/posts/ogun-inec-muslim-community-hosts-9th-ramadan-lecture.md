@@ -4,7 +4,7 @@ headline: The holy month of Ramadan, one of the five pillars of Islam, is the
   most celebrated in the months of the Islamic lunar calendar.
 date: 2024-03-26T15:40:06.033Z
 category: news
-topstory: true
+topstory: false
 image: uploads/ramadan-lecture.jpeg
 ---
 The holy month of Ramadan, one of the five pillars of Islam, is the most celebrated in the months of the Islamic lunar calendar.
