@@ -5,7 +5,7 @@ headline: He personifies the attributes of Ijebu that include strength of
   sincerity, entrepreneurial spirit, reliability, and resoluteness.
 date: 2024-04-02T20:15
 category: culture
-topstory: true
+topstory: false
 image: uploads/awujale.jpeg
 ---
 THE world’s longest reigning paramount monarch, Oba (Dr.) Sikiru Kayode Adetona is 64 years on the throne.
