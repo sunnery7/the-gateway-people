@@ -5,7 +5,7 @@ headline: Tuesday, April 16, 2024. All roads literarily led to Akinale, an Owu
   hunter and warrior, Odetoyinbo Akanni Lapeleke and his two siblings.
 date: 2024-04-18T22:09:00.000Z
 category: culture
-topstory: true
+topstory: false
 image: uploads/akinale.jpeg
 ---
 Dateline: Tuesday, April 16, 2024. All roads literarily led to Akinale, an Owu town in Ewekoro Local Government Area of Ogun State founded by the legendry hunter and warrior, Odetoyinbo Akanni Lapeleke and his two siblings.
