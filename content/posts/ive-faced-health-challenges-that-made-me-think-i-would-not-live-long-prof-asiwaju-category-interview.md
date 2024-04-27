@@ -1,6 +1,6 @@
 ---
-title: "I've faced health challenges that made me think I would not live long -
-  Prof. Asiwaju Category: Interview"
+title: I've faced health challenges that made me think I would not live long -
+  Prof. Asiwaju
 headline: He was not born with greatnes!. But he attained greatness through dint
   of hardwork. persevarance, prayer and dogedness, climaxing his academic height
   with his appointment as professor at 31.
