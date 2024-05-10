@@ -4,7 +4,7 @@ headline: The  Chess Master,  Mr. Tunde Onakoya has delightly said that he felt
   proud to be a Nigerian from Ago Iwoye, Ogun State.
 date: 2024-04-25T22:32:00.000Z
 category: news
-topstory: true
+topstory: false
 image: uploads/chessmaster.jpeg
 ---
 The  Chess Master,  Mr. Tunde Onakoya has delightly said that he felt proud to be a Nigerian from Ago Iwoye, Ogun State.
