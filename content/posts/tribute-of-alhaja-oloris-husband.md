@@ -5,7 +5,7 @@ headline: "My dear Abeke, our wedding was tagged: 'Wedding of the Tee-Jays' and
 date: 2024-05-15T17:48:00.000Z
 category: interview
 topstory: false
-image: uploads/olori.jpeg
+image: uploads/olori2.jpeg
 ---
 My dear Abeke, our wedding was tagged: 'Wedding of the Tee-Jays' and it has continued to yield fruits that anyone can be proud of. 
 
