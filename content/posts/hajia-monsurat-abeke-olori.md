@@ -6,6 +6,10 @@ category: interview
 topstory: false
 image: uploads/olori.jpeg
 ---
+*Taiwo Solagbade ABIOLA*
+
+
+
 Her ambition in life seemed to have aligned with her divine destiny. The environment in which she found herself, her love for taking care of people who were sick or in needs.
 
 Also, the intervention of destiny helpers at every appropriate junction in her life also helped to strengthen her resolve and propelled her towards the achievement of her prime goal of becoming a nurse in life. 
@@ -142,7 +146,7 @@ Again, it was a religious headache for Monsurat who was still a virgin at 25, go
 
 "There was an herbalist whose first wife’s years of infertility was turned around and she had a child when I attended to her. Do you that the herbalist brought his second wife who had fertility issues, too, to the hospital where I was working then and particularly handed her over to me for treatment.
 
-"To the glory of Allah, she became pregnant and delivered her child safely. That was when I challenged Allah,   
+"To the glory of Allah, she became pregnant and delivered her child safely. That was when I challenged Allah,\
 begging Him not to fail me as a woman and that year I became pregnant and had my first child in 1999, while others subsequently followed in quick successions, Alhamdul Lih Lah”  she stated.
 
 When asked what her opinion is on some health workers who are intolerant at their duty post, especially to patients and their relations, Hajia Olori explained that it was unprofessional not to attend to patients with compassion, saying health workers should be friendly and their behaviour should always help to alleviate the pains of patients and not to aggravate the pains and psychological trauma of such patients. 
