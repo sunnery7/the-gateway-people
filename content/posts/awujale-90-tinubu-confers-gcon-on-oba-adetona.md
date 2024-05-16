@@ -4,7 +4,7 @@ headline: "We are here today to celebrate and rejoice with an outstanding and
   extraordinary monarch on the occasion of his 90th birthday anniversary. "
 date: 2024-05-10T23:54:00.000Z
 category: news
-topstory: true
+topstory: false
 image: uploads/awujale-tinubu.jpeg
 ---
 SPEECH BY PRESIDENT BOLA TINUBU AS READ BY VP KASHIM SHETTIMA ON THE OCCASION OF 90TH BIRTHDAY ANNIVERSARY OF HRM OBA SIKIRU KAYODE ADETONA, THE AWUJALE OF IJEBULAND ON MAY 10, 2024 
