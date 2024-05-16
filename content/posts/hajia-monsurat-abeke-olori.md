@@ -1,6 +1,6 @@
 ---
 title: Hajia Monsurat Abeke Olori
-headline: "Alhaja Abeke Olori: Woman with strong and undaunted will to succeed in life"
+headline: Woman with strong and undaunted will to succeed in life
 date: 2024-05-15T20:54:00.000Z
 category: interview
 topstory: false
