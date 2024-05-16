@@ -2,7 +2,7 @@
 title: TRIBUTES BY CHILDREN
 headline: '"Every March 18 is special day in our family"'
 date: 2024-05-15T20:57:00.000Z
-category: opinion
+category: interview
 topstory: false
 image: uploads/olori-fam.jpeg
 ---
