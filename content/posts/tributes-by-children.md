@@ -38,13 +38,11 @@ in vain. I love you more than words can express, and I hope you will stay with u
 
 Happy birthday to the best mother that one could possibly ask for!
 
-Abdul Awwal Olori
+**Abdul Awwal Olori**
 
 
 
 I rejoice with my mum @ 60!
-
-
 
 My dear mum, every  March 18 is your day which is why on this special day, I want to express my deepest gratitude for everything you've done for me and for the unwavering love and support you've always shown.
 
@@ -58,13 +56,11 @@ As you celebrate another year of life, my wish for you is simple;  may your days
 
 Happy birthday and happy retirement, Mum. Thank you for being the most incredible mother a child could ever ask for.
 
-Haneefat Olori
+**Haneefat Olori**
 
 
 
 Celebrating Mom!
-
-
 
 On this special day, we honour the incredible woman who fills our lives with love, warmth, and wisdom—our beloved mom. 
 
@@ -73,3 +69,5 @@ Her kindness and care make our home a haven, and her support helps us grow stron
 Mom's love knows no bounds. She's always there to lend a hand, offer a listening ear, or share a comforting hug. Her generosity touches everyone she meets, showing us the true meaning of compassion and generosity.
 
 Today, as we celebrate her birthday, let's take a moment to thank her for everything she does. Mom, you're the heart of our family, and we're so grateful for you. Happy Birthday!
+
+**Hameedar Olori**
