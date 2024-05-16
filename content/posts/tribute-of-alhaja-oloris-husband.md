@@ -1,8 +1,8 @@
 ---
 title: Tribute of Alhaja Olori's husband
-headline: "My dear Abeke, our wedding was tagged: 'Wedding of the Tee-Jays' and
-  it has continued to yield fruits that anyone can be proud of. "
-date: 2024-05-15T17:48:00.000Z
+headline: 'My dear Abeke, our wedding was tagged: "Wedding of the Tee-Jays" and
+  it has continued to yield fruits that anyone can be proud of. '
+date: 2024-05-16T09:39:00.000Z
 category: interview
 topstory: false
 image: uploads/olori2.jpeg
