@@ -4,7 +4,7 @@ headline: We wish to clarity that this open letter is not, and should never be
   taken as a personal attack on the person of Prince Dapo Abiodun, CFR.
 date: 2024-05-27T11:16:00.000Z
 category: opinion
-topstory: true
+topstory: false
 image: uploads/alake-palace.jpeg
 ---
 Open  Letter to
