@@ -5,7 +5,7 @@ headline: "The Olubara crown was resuscitated 14 April 1952 after ninety years
   ancient crown in his custody. "
 date: 2024-05-29T04:57:00.000Z
 category: culture
-topstory: true
+topstory: false
 image: uploads/ogun-logo.jpeg
 ---
 Ibara, the nerve centre of economic and social activities of Abeokuta, is one of the most prominent traditional towns in the city, hosting most of its banks and commercial ventures. 
