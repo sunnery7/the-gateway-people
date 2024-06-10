@@ -4,7 +4,7 @@ headline: " He was equally appointed by Governor Sanwo Olu into a committee that
   handled the rehabilitation of dilapidated schools in Lagos State."
 date: 2024-06-03T06:54:00.000Z
 category: opinion
-topstory: true
+topstory: false
 image: uploads/biq.jpeg
 ---
 In my political and public service life that started with political appointment as Chief Press Secretary to Military Administrator of Ogun State in May 1997, I had a stint of Lagos State politics with my joining the team of the Hon. Solomon Olamilekan Adeola representing Alimosho Federal Constituency sometimes in 2011 shortly after my service as Special Adviser to the Speaker of House of Representatives, Rt. Hon Dimeji Bankole. 
