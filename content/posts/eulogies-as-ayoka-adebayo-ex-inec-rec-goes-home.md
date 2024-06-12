@@ -4,7 +4,7 @@ headline: The late woman was also the  former Independent National Electoral
   Commission (INEC), Resident Electoral Commissioner for Ekiti and Ondo states.
 date: 2024-06-10T10:24:00.000Z
 category: news
-topstory: true
+topstory: false
 image: uploads/ayoka-adebayo.jpeg
 ---
 Eminent Nigerians, family members, friends, colleagues,  Egba and Owu natives among others paid their last respects to the late notable Òwu-Abeokuta woman leader, Chief Mrs Olusola Ayoka Adebayo
