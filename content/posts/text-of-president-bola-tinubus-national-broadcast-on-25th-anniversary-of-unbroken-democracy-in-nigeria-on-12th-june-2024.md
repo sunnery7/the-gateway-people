@@ -5,7 +5,7 @@ headline: On this day, 31 years ago, we entered our rites of passage to becoming
   a true and enduring democratic society.
 date: 2024-06-12T14:22:00.000Z
 category: news
-topstory: true
+topstory: false
 image: uploads/tinubu.webp
 ---
 My fellow Nigerians, let me begin by congratulating all of us for witnessing the celebration of another Democracy Day today, the 12th day of June 2024. This year also marks our nation’s 25 years of uninterrupted democratic governance.
