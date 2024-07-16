@@ -4,7 +4,7 @@ headline: "On that bright morning on October 31, 2013, the forever young and
   robustly energetic lady asked for a special breakfast of moinmoin and ogi. "
 date: 2024-06-20T17:20:00.000Z
 category: opinion
-topstory: true
+topstory: false
 image: uploads/tola-adeniyi.jpeg
 ---
 I wrote ‘Visit The Mortuary’ as Tola Adeniyi in my Sunday Times column (1974) and ‘Death I Salute You!’ as Aba Saheed in my Daily Times Aba Saheed column in (1975). 
