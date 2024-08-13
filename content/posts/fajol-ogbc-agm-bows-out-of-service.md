@@ -4,7 +4,7 @@ headline: He joined OGBC and rose through the ranks to become Assistant General
   Manager, News and Current Affairs Division.
 date: 2024-07-16T11:47:00.000Z
 category: news
-topstory: true
+topstory: false
 image: uploads/fajounbo1.jpeg
 ---
 It was an emotional moment for Mr. Mobolaji Fajounbo yesterday as he began his pre-retirement leave from the Ogun State Broadcasting Corporation (OGBC), which he joined decades ago.
