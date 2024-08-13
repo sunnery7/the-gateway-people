@@ -4,7 +4,7 @@ headline: In an organised advocacy, the anti human trafficking agency in Ogun
   State solicited supports and cooperation of the royal fathers.
 date: 2024-08-13T19:18:00.000Z
 category: news
-topstory: false
+topstory: true
 image: uploads/oba-ogunleye.jpeg
 ---
 He was not his usual self!. At least his looks and physical figure suggested that all was not well with him.
