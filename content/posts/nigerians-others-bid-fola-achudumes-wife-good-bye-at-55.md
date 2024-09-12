@@ -5,7 +5,7 @@ headline: "Former President Olusegun Obasanjo and wife Bola, Folu Adeboye, wife
   sent their condolences. "
 date: 2024-08-29T09:27:00.000Z
 category: news
-topstory: true
+topstory: false
 image: uploads/fola-achudume-burial.jpeg
 ---
 Abeokuta, the Ogun State capital literarily stood still for the late Rev. Fola Achudume, wife of the lead pastor of Victory Life Bible Church, VLBC, Lawrence Achudume as her remains were committed to mother earth on Thursday August 22, 2024.
