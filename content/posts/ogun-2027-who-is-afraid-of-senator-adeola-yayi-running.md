@@ -5,7 +5,7 @@ headline: "Giving that implicit conclusion of Adisa and his backers, one is just
   raised in his uncalled-for hasty pontification. "
 date: 2024-09-12T17:41:00.000Z
 category: opinion
-topstory: true
+topstory: false
 image: https://nigeriansenate.com/lagos/adeola/adeola.jpeg
 ---
 On a Sunday morning I opened an online story published in the “Daily Dispatch” of September 8, 2024, with the long title of “Ogun 2027: Olamilekan, not the best to put forward as APC governorship candidate”.
