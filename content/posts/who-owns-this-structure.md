@@ -4,7 +4,7 @@ headline: Who owns this property? That's the question on the lips of many
   residents of Abeokuta, the Ogun State capital.
 date: 2023-11-25T08:46:52.868Z
 category: exclusive
-topstory: true
+topstory: false
 image: uploads/img-20231203-wa0005.jpg
 ---
 Who owns this property? That's the question on the lips of many residents of Abeokuta, the Ogun State capital.
