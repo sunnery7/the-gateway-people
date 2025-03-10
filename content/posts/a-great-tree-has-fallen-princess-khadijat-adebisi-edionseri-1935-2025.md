@@ -5,7 +5,7 @@ headline: One of her last public appearances was on Sunday, December 29, 2024,
   a fitting tribute to her enduring legacy
 date: 2025-01-06T19:50:00.000Z
 category: news
-topstory: true
+topstory: false
 image: uploads/cash-madam.jpeg
 ---
 The passing of a righteous individual like Princess Khadijat Adebisi Edionseri, fondly known as Cash Madam, is a profound loss to the Muslim, business, and socialite communities. According to Islamic belief, the death of a righteous person is a significant event, as it marks the transition of a soul from worldly life to the afterlife, where they will be rewarded for their good deeds.
