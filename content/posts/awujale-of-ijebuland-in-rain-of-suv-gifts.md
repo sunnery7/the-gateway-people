@@ -4,7 +4,7 @@ headline: "Ijebu – Ode: It is raining at the Aafin Awujale of Ijebuland in Ije
   Ode. The rain is the rain of brand new vehicles"
 date: 2025-03-10T17:19:00.000Z
 category: news
-topstory: true
+topstory: false
 image: uploads/awujale.jpeg
 ---
 Ijebu – Ode: It is raining at the Aafin Awujale of Ijebuland in Ijebu Ode. The rain is the rain of brand new vehicles; SUVs, buses and cars that the longest reigning first class monarch in Nigeria, Kabiyesi Alayeluwa Oba (Dr.) Sikiru Kayode Adetona GCON, the Awujale and Paramount Ruler of Ijebuland, has been giving out, all-expenses-paid, to his people in the last three months or so.
