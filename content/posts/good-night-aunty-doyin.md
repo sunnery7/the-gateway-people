@@ -1,9 +1,9 @@
 ---
-title: Good Night, Aunty Doyin!
-headline: Good Night, Aunty Doyin!
-date: 2025-03-31T14:18:00.000Z
+title: Mr. & Mrs. Akin Alade, happy wedding anniversary!
+headline: Mr. & Mrs. Akin Alade, happy wedding anniversary!
+date: 2025-03-31T19:19:00.000Z
 category: news
 topstory: false
-image: uploads/doyin.jpeg
+image: uploads/mr-mrs-alade.jpeg
 ---
-Good Night, Aunty Doyin!
+Mr. & Mrs. Akin Alade, happy wedding anniversary!
