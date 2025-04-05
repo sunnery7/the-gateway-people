@@ -5,7 +5,7 @@ headline: This is a big question begging for an answer since the remains of the
   mother earth on  Friday, December 8, 2023
 date: 2025-03-28T12:01:00.000Z
 category: news
-topstory: true
+topstory: false
 image: uploads/alake-gbadebo.jpeg
 ---
 This is a big question begging for an answer since the remains of the late Egba amazon, Iyalode of Egbaland, Chief Alaba Lawson were committed to mother earth on  Friday, December 8, 2023.
