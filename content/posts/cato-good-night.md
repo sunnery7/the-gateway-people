@@ -5,7 +5,7 @@ headline: The following day, rumour filtered in that you have passed away. A
   spreading story
 date: 2025-04-05T23:50:00.000Z
 category: opinion
-topstory: true
+topstory: false
 image: uploads/cato.jpeg
 ---
 Our last conversation was on Monday, 24 March, 2025. At 6:32 am, you sent me a WhatsApp message, asking that I should come up with a condolence letter to the Board Chairman of Oniroyin Support Initiative, Mrs. Olufunke Adedayo Fadugba, who just lost her mother. You followed up by requesting that I draft another condolence letter for the late Segun Alani Adeleye family too. I promised to do as directed. 
