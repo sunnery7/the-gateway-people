@@ -3,7 +3,7 @@ title: What you may not know about "Aderupoko"
 headline: Aderupoko is a household  name in Abeokuta, the Ogun State capital
 date: 2025-04-16T15:39:00.000Z
 category: exclusive
-topstory: true
+topstory: false
 image: uploads/olumo.jpeg
 ---
 Aderupoko is a household  name in Abeokuta, the Ogun State capital.
