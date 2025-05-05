@@ -5,7 +5,7 @@ headline: As Nigeria prepares to lay to rest one of its most illustrious sons,
   institution
 date: 2025-05-03T16:43:00.000Z
 category: opinion
-topstory: true
+topstory: false
 image: uploads/pa-adebanjo.jpeg
 ---
 As Nigeria prepares to lay to rest one of its most illustrious sons, Chief Ayo Adebanjo, on May 3, 2025, the nation mourns not just a man but an institution—an unwavering symbol of integrity, justice, and relentless advocacy for true federalism. 
