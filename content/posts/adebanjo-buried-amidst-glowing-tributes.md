@@ -4,7 +4,7 @@ headline:  Adebanjo, the lawyer-turned politician died at the age of 96 on
   February 14, 2025
 date: 2025-05-05T13:08:00.000Z
 category: exclusive
-topstory: true
+topstory: false
 image: uploads/adebannjo-tribute.jpeg
 ---
 Amidst glowing tributes, the late nationalist and foremost Yoruba leader, Pa Ayo Adebanjo was last Saturday buried at his hometown in Isanya-Ogbo, in Ijebu-Ode, Ogun State.
