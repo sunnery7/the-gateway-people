@@ -4,7 +4,7 @@ headline: This is not doubting deliberate sabotage as may have happened in the
   case of JAMB
 date: 2025-05-16T07:42:00.000Z
 category: opinion
-topstory: true
+topstory: false
 image: uploads/bro-oloyede.jpeg
 ---
 It’s been traumatic for my entire family since that video started making the rounds. I sneaked a slight view. It’s our trial. It’s my trial. Oloyede is genuine. He is most sincere. He is modestly so as well. For us, however, Allah knows best.
