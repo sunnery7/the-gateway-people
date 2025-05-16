@@ -4,7 +4,7 @@ headline: Gbedu is not just any drum—it is the drum against which all others a
   measured, the drum by which drums themselves are defined
 date: 2025-05-10T11:14:00.000Z
 category: opinion
-topstory: true
+topstory: false
 image: uploads/tribute-to-teacher.jpeg
 ---
 There are many woods in the  forest—some hardy, some ordinary, some merely ornamental. But when the time comes to create the gbedu, that great drum whose timbre commands kings and warriors to hearken, only a rare, resilient, and resonant wood is considered. 
