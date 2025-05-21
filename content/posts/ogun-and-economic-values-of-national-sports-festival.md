@@ -4,7 +4,7 @@ headline: The much-anticipated 22nd National Sports Festival is now at our
   doorsteps and excitement is reaching crescendo
 date: 2025-05-16T08:38:00.000Z
 category: opinion
-topstory: true
+topstory: false
 image: uploads/sport1.jpeg
 ---
 Few hours to the National Sports Festival, Nigeria's finest athletes set to shine in Abeokuta, the Ogun State capital. The National Sports Festival is a premier multi-sport event in Nigeria that brings together athletes from across the country to compete in various disciplines. This year's edition is expected to showcase the state's hospitality and economic potential. Beyond the sporting spectacle, the festival is anticipated to have a significant impact on Ogun state's economy.
