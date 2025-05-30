@@ -6,7 +6,7 @@ headline: Meanwhile, the policeman must be prosecuted for murder or at least
   traffic enforcement.  
 date: 2025-05-21T13:24:00.000Z
 category: opinion
-topstory: true
+topstory: false
 image: uploads/igp-egbetokun.jpeg
 ---
 I have just watched the now-viral video of the Ibadan traffic stop shooting—the one where a desperate father, driving against traffic in a panic, triggered a chain of events that ended with his own son dead from police gunfire. 
