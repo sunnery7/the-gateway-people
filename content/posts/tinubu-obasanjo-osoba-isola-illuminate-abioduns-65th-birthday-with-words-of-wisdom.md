@@ -4,7 +4,7 @@ title: Tinubu, Obasanjo, Osoba, Isola Illuminate Abiodun's 65th Birthday with
 headline: Traditional rulers also echoed the chorus of commendation.
 date: 2025-05-30T20:01:00.000Z
 category: news
-topstory: true
+topstory: false
 image: uploads/abiodunn-bday.jpeg
 ---
 In an atmosphere charged with gratitude, celebration, and hope, dignitaries from across Nigeria and beyond gathered at the historic Cathedral Church of St. Peter, Ake, Abeokuta, the Ogun State capital.
