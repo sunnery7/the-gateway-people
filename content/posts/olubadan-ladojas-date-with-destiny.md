@@ -5,7 +5,7 @@ headline: While the Obaship system and ascension to the coveted throne of
   gift of long life ...
 date: 2025-07-09T07:20:00.000Z
 category: culture
-topstory: true
+topstory: false
 image: uploads/ladoja.jpeg
 ---
 In every true son of Ibadan, there’s a potential Olubadan. However, becoming Olubadan is a long haul of climbing 23-step rungs of either of the two chieftaincy ladders: Olubadan line (civil) and Balogun line (Military).
