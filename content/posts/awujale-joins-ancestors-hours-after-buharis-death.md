@@ -4,7 +4,7 @@ headline: The late Awujale, who ascended the throne in 1960, was widely regarded
   as one of Nigeria’s most influential and longest-serving traditional rulers.
 date: 2025-07-13T22:25:00.000Z
 category: culture
-topstory: true
+topstory: false
 image: uploads/whatsapp-image-2025-07-13-at-9.44.30-pm.jpeg
 ---
 **The paramount ruler of Ijebuland, Oba (Dr.) Sikiru Kayode Adetona, the Awujale and spiritual head of Ijebu people, has joined his ancestors  at the age of 91.**
