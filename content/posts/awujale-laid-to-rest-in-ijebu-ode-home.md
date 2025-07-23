@@ -4,7 +4,7 @@ headline: The Awujale of Ijebuland and paramount ruler of the Ijebu people, Oba
   Sikiru Kayode Adetona, has been buried.
 date: 2025-07-15T18:43:00.000+01:00
 category: culture
-topstory: true
+topstory: false
 image: uploads/whatsapp-image-2025-07-15-at-8.09.28-am.jpeg
 ---
 The Awujale of Ijebuland and paramount ruler of the Ijebu people, Oba Sikiru Kayode Adetona, has been buried.
