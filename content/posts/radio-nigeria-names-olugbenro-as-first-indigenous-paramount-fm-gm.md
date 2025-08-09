@@ -5,7 +5,7 @@ headline: In a historic move, Radio Nigeria has appointed Mrs. Oluremi Olugbenro
 date: 2025-08-07T13:15:00.000+01:00
 category: news
 topstory: false
-image: uploads/whatsapp-image-2025-08-06-at-5.14.45-pm.jpeg
+image: uploads/whatsapp-image-2025-08-07-at-9.22.27-pm.jpeg
 ---
 In a historic move, Radio Nigeria has appointed Mrs. Oluremi Olugbenro as the first indigenous General Manager of Paramount FM 94.5 Abeokuta.
 This is with a bold promise to drive innovation, deepen community engagement and elevate the station’s legacy of excellence.
