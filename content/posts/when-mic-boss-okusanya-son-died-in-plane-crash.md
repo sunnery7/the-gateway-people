@@ -1,5 +1,5 @@
 ---
-title: When MIC boss, Okusanya, son died in plane crash!
+title: When MIC boss, Okusanya, son died in plane crash
 headline: These included the funeral of Chief Oluwole Awolowo, the first son of
   the late sage, Chief Obafemi Awolowo
 date: 2025-10-06T17:32:00.000+01:00
