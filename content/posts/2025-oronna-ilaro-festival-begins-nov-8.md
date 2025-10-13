@@ -5,7 +5,7 @@ headline: The Executive Governor of Ogun State,  Prince Dr Dapo Abiodun, CON is
 date: 2025-10-13T18:09:00.000+01:00
 category: culture
 topstory: false
-image: uploads/whatsapp-image-2025-10-13-at-3.05.12-pm.jpeg
+image: uploads/oronna.jpeg
 ---
 The ancient town of Ilaro, Yewaland, is set to come alive once again as it hosts the 2025 Oronna Festival, proudly themed “Festival of Joyful Grace.” 
 
