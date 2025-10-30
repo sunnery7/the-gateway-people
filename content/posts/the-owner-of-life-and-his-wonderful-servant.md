@@ -1,5 +1,5 @@
 ---
-title: '"The Owner of Life And His Wonderful Servant"'
+title: The Owner of Life And His Wonderful Servant
 headline: Then, this fateful Tuesday morning, I spoke to her on the phone about
   10 am as I worked out
 date: 2025-10-29T12:57:00.000+01:00
