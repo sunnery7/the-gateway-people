@@ -20,7 +20,13 @@ async function getData() {
       }
     })
 
-  return posts
+    const sortedPost = posts
+      .map(obj => ({...obj, date: new Date(obj.date)}))
+      .sort((objA, objB) => objB.date - objA.date)
+      .slice(0, 39);
+
+    return sortedPost
+
   } catch (error) {
     
   }
@@ -28,16 +34,9 @@ async function getData() {
 
 export default async function Home() {
     
-  const allPost = await getData()
+  const posts = await getData()
 
-  const posts = allPost.filter((post) => post.topstory === false).map(obj => ({...obj, date: new Date(obj.date)}))
-
-  const sortedPost = posts.sort(
-    (objA, objB) => Number(objB.date) - Number(objA.date),
-  );
-  
-
-  const topStory = allPost?.filter((post) => post?.topstory === true)[0]
+  const topStory = posts?.filter((post) => post?.topstory === true)[0]
 
   return (
     <section className="w-full" data-id="1">
@@ -53,13 +52,15 @@ export default async function Home() {
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6" data-id="16">
                 <div data-id="17">
-                  <img
-                    alt={topStory?.title}
-                    className="w-full object-cover object-top rounded-lg h-96"
-                    height="400"
-                    src={topStory?.image ? `/${topStory?.image}` : `/placeholder.svg`}
-                    width="600"
-                  />
+                  <Link href={`/blog/${topStory?.slug}`} className=" hover:text-red-600 mt-4">
+                    <img
+                      alt={topStory?.title}
+                      className="w-full object-cover object-top rounded-lg h-96"
+                      height="400"
+                      src={topStory?.image ? `/${topStory?.image}` : `/placeholder.svg`}
+                      width="600"
+                    />
+                  </Link>
                 </div>
                 <div className="flex flex-col justify-center" data-id="19">
                   <h3 className="text-xl font-bold mb-2" data-id="20">{topStory?.title}</h3>
@@ -76,7 +77,7 @@ export default async function Home() {
         <section className="mb-8" data-id="23">
           {/* <h2 className="text-2xl font-bold mb-4" data-id="24">Politics</h2> */}
           <div className="grid grid-cols-1 md:grid-cols-4 gap-12" data-id="25">
-            {sortedPost?.slice(0,32).map((post, idx) => (
+            {posts?.filter((post) => post?.topstory === false).map((post, idx) => (
               <Link key={idx} href={`/blog/${post?.slug}`}>
                 <div>
                   <div data-id="26" className="w-[250] h-[250px]">

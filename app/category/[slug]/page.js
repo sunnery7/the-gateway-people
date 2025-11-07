@@ -37,23 +37,25 @@ async function getData(slug) {
       }
     })
 
+    // return 40 most recent posts in the category
     const posts = allPost?.filter((post) => post.category === slug)
-    return posts
+
+    const sortedPost = posts
+      .map(obj => ({...obj, date: new Date(obj.date)}))
+      .sort((objA, objB) => objB.date - objA.date)
+      .slice(0, 40);
+
+    return sortedPost
   } catch (error) {
-    
+    // console.log(error)
   }
 }
 
 export default async function Category({params}) {
   const {slug} = params
     
-  const allPost = await getData(slug)
+  const posts = await getData(slug)
 
-  const posts = allPost.filter((post) => post.topstory === false).map(obj => ({...obj, date: new Date(obj.date)}))
-
-  const sortedPost = posts.sort(
-    (objA, objB) => Number(objB.date) - Number(objA.date),
-  );
 
   if(!posts){
     return(
@@ -73,7 +75,7 @@ export default async function Category({params}) {
         <section className="mb-8" data-id="23">
           {/* <h2 className="text-2xl font-bold mb-4" data-id="24">Politics</h2> */}
           <div className="grid grid-cols-1 md:grid-cols-4 gap-12" data-id="25">
-            {sortedPost?.map((post, idx) => (
+            {posts?.map((post, idx) => (
               <Link key={idx} href={`/blog/${post?.slug}`}>
                 <div data-id="26">
                   <div data-id="26" className="w-[250] h-[250px]">
