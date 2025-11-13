@@ -7,7 +7,7 @@ headline: The cleric spoke during a Holy Communion Service to mark the 83rd
 date: 2025-11-11T14:07:00.000+01:00
 category: news
 topstory: true
-image: uploads/whatsapp-image-2025-11-11-at-1.19.29-pm.jpeg
+image: uploads/whatsapp-image-2025-11-11-at-1.20.58-pm.jpeg
 ---
 The Presbyter of Methodist Church, Irolu, Ikenne Local Government Area of Ogun, State, Rev. Olumide Faluyi has urged Nigerians to live a life worthy of emulation.
 
